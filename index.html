@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="A.js"></script>
+</head>
+<body>
+<div id="box">
+    <span>123</span>
+</div>
+<div class="box">
+    <span>a</span>
+</div>
+<div class="box">
+    c
+    <span class="box">b</span>
+</div>
+</body>
+<script>
+    A('#box').css({'color':'red'})
+</script>
+</html>

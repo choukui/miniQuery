@@ -1,1 +1,1 @@
-# miniQuery
+# 迷你版jQuery
