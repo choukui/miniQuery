@@ -1,5 +1,5 @@
 /**
- * Created by 95203 on 2017/7/19.
+ * Created by wangjiankui on 2016/10/19.
  */
 (function (window) {
     var miniQ = function (select, context) {
@@ -75,13 +75,14 @@
                 return letter.toUpperCase()
             })
         },
-        //简化for循环
+        //简化for循环，，用来遍历数组
         for:function (arr,callback) {
             var i = 0,len = arr.length;
             for(;i<len;i++){
                 callback && callback(arr[i],i,arr)
             }
         },
+        //简化的for..in 循环，，用来遍历对象
         forIn:function (obj, callback) {
             var _val;
             for ( _val in obj){
@@ -122,6 +123,29 @@
                 }
             }
             return this;
+        },
+        attr:function () {
+            var arg = arguments,len = arg.length;
+            if(arg.length < 1){
+                return this;
+            }
+            if (len === 1){
+                if (typeof arg[0] === 'string'){
+                    return this[0].getAttribute(arg[0]);
+                }else if (typeof arg[0] === 'object'){
+                    //保存当前对象
+                    var that = this;
+                    miniQ.forIn(arg[0],function (key, val, obj) {
+                        for (var i = 0; i < that.length; i++){
+                            that[i].setAttribute(key,val)
+                        }
+                    })
+                }
+            }else if(len === 2){
+                for (var i = 0; i < this.length; i++){
+                    this[i].setAttribute(arg[0],arg[1])
+                }
+            }
         }
     });
 
