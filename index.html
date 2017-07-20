@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="A.js"></script>
+    <!--<style>-->
+        <!--#box{-->
+            <!--color: #000;-->
+        <!--}-->
+    <!--</style>-->
+    <link rel="stylesheet" href="style.css">
+    <script src="miniQuery.js"></script>
 </head>
 <body>
 <div id="box">
@@ -16,8 +22,14 @@
     c
     <span class="box">b</span>
 </div>
+<input type="text" class="box">
 </body>
 <script>
-    A('#box').css({'color':'red'})
+//    miniQ('.box').css({color:'red',fontSize:'20px'});
+console.log(miniQ('#box').css('margin-bottom'));
+var a = {a:1,b:9};
+miniQ.forIn(a,function (val,key, obj) {
+    console.log(val,key,obj)
+})
 </script>
 </html>
