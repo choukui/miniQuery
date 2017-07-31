@@ -1,4 +1,4 @@
-# 迷你版jQuery
+# 迷你版jQuery（不断完善中）
 
 1:miniQ('#box') 获取id元素
 2:miniQ('.box') 获取class元素
