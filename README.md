@@ -23,4 +23,4 @@
 
 6:miniQ.for(arr,function(val,index,arr){}) //数组循环 callback三个参数：数组值，每一项的下标，数组本身
 
-7:miniQ.forIn(obj,function(val,key,obj){}) //数组循环 callback三个参数：键，值，对象本身
+7:miniQ.forIn(obj,function(val,key,obj){}) //对象循环 callback三个参数：键，值，对象本身
