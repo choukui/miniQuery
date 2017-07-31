@@ -136,6 +136,25 @@
         },
         scrollW:function () {//获取左边上边卷去的高度
             return document.body.scrollLeft;
+        },
+        getUrlSearch:function () {
+            //获取url查询字符串，并删除?号
+            var qs =  (location.search.length > 0 ? location.search.substring(1) : ""),
+                //保存数据的对象
+                args = {},
+                items =  qs.length ? qs.split("&") : [],
+                item = null;
+            for(var i = 0; i < items.length; i++){
+                //去除每一项的等号
+                item = items[i].split('=');
+                //解码
+                var name = decodeURIComponent(item[0]),
+                    val=decodeURIComponent(item[1]);
+                if(name.length){
+                    args[name] = val;
+                }
+            }
+            return args;
         }
     });
     miniQ.fn.extend({

@@ -19,24 +19,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
+            <state relative-caret-position="565">
+              <caret line="77" column="34" lean-forward="false" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="miniQuery.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="miniQuery.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miniQuery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="781">
-              <caret line="136" column="35" lean-forward="false" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
+            <state relative-caret-position="457">
+              <caret line="149" column="20" lean-forward="false" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
               <folding>
                 <element signature="e#204#1382#0" expanded="false" />
-                <element signature="e#4690#5901#0" expanded="false" />
+                <element signature="e#5374#6585#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -85,8 +85,8 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/jquery-1.12.4.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/miniQuery.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/miniQuery.js" />
       </list>
     </option>
   </component>
@@ -237,12 +237,12 @@
       <workItem from="1500510262654" duration="7245000" />
       <workItem from="1500598881085" duration="1203000" />
       <workItem from="1500857487652" duration="915000" />
-      <workItem from="1501487702441" duration="4991000" />
+      <workItem from="1501487702441" duration="6424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20758000" />
+    <option name="totallyTimeSpent" value="22191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
@@ -307,7 +307,7 @@
           <caret line="135" column="28" lean-forward="false" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
           <folding>
             <element signature="e#204#1382#0" expanded="false" />
-            <element signature="e#4690#5901#0" expanded="false" />
+            <element signature="e#5374#6585#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -352,7 +352,7 @@
           <caret line="135" column="28" lean-forward="false" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
           <folding>
             <element signature="e#204#1382#0" expanded="false" />
-            <element signature="e#4690#5901#0" expanded="false" />
+            <element signature="e#5374#6585#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -397,7 +397,7 @@
           <caret line="135" column="28" lean-forward="false" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
           <folding>
             <element signature="e#204#1382#0" expanded="false" />
-            <element signature="e#4690#5901#0" expanded="false" />
+            <element signature="e#5374#6585#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -455,22 +455,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniQuery.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="136" column="35" lean-forward="false" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
-          <folding>
-            <element signature="e#204#1382#0" expanded="false" />
-            <element signature="e#4690#5901#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="565">
+          <caret line="77" column="34" lean-forward="false" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/miniQuery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="79" column="33" lean-forward="true" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="457">
+          <caret line="149" column="20" lean-forward="false" selection-start-line="149" selection-start-column="20" selection-end-line="149" selection-end-column="20" />
+          <folding>
+            <element signature="e#204#1382#0" expanded="false" />
+            <element signature="e#5374#6585#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
