@@ -4,12 +4,9 @@
 
 引用方式：
 
-下载到本地
+1：下载到本地
   
-
-  
-  <script src='miniQuery.js'></script>
-  
+2：<script src='miniQuery.js'></script>
 
 
 ## 功能说明：
