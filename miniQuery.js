@@ -88,6 +88,54 @@
             for ( _val in obj){
                 callback && callback(_val,obj[_val],obj)
             }
+        },
+        topPos:function () {//获取浏览器窗口相对于屏幕上边的位置,获取到的值并不精确，
+            //IE、Safari、Opera、chrome下window.screenTop，FireFox下window.screenY
+            return window.screenTop || window.screenY;
+        },
+        leftPos:function () {//获取浏览器窗口相对于屏幕左边的位置，获取到的值并不精确
+            //IE、Safari、Opera、chrome下window.screenLeft，FireFox下window.screenX
+            return window.screenLeft || window.screenX;
+        },
+        screenH:function () {//获取屏幕的高度
+            return window.screen.height;
+        },
+        screenW:function () {
+            return window.screen.width;
+        },
+        pageH:function () {//获取浏览器可视区域的高度(不包括滚动条和工具栏)
+            var pageHeight = window.innerHeight;
+            if(typeof pageHeight == 'number'){
+                if(document.compatMode =='CSS1Compat'){
+                    pageHeight = document.documentElement.clientHeight;
+                }else {
+                    pageHeight = document.body.clientHeight
+                }
+            }
+            return pageHeight;
+        },
+        pageW:function () {//获取浏览器可视区域的宽度(不包括滚动条和工具栏)
+            var pageWidth = window.innerWidth;
+            if(typeof pageWidth == 'number'){
+                if(document.compatMode =='CSS1Compat'){
+                    pageWidth = document.documentElement.clientWidth;
+                }else {
+                    pageWidth = document.body.clientWidth
+                }
+            }
+            return pageWidth;
+        },
+        scrollH:function () {//获取整个页面的高度
+            return document.documentElement.scrollHeight;
+        },
+        scrollW:function () {//获取整个页面的宽度
+            return document.documentElement.scrollWidth;
+        },
+        scrollT:function () {//获取页面上边卷去的高度
+            return document.body.scrollTop;
+        },
+        scrollW:function () {//获取左边上边卷去的高度
+            return document.body.scrollLeft;
         }
     });
     miniQ.fn.extend({
